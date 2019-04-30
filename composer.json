@@ -1,0 +1,22 @@
+{
+    "name": "lcjury/shredder",
+    "description": "Shred data from various sources",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Jury",
+            "email": "zeui16@gmail.com"
+        }
+    ],
+    "require": {
+        "anahkiasen/underscore-php": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lcjury\\Shredder\\": "src"
+        }
+    }
+}
